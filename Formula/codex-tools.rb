@@ -1,17 +1,17 @@
 class CodexTools < Formula
   desc "Native macOS menu bar app for managing multiple Codex auth sessions"
   homepage "https://github.com/VincentBurke/codex-tools"
-  version "0.1.16"
+  version "0.1.17"
   depends_on macos: :sonoma
 
   on_arm do
-    url "https://github.com/VincentBurke/codex-tools/releases/download/v0.1.16/codex-tools-0.1.16-arm64.tar.gz"
-    sha256 "459c4b36f26ac959f82bcbbff43c6b95e076d29032cbf4b3d50ee450237a1203"
+    url "https://github.com/VincentBurke/codex-tools/releases/download/v0.1.17/codex-tools-0.1.17-arm64.tar.gz"
+    sha256 "ca9cd71b2a9519a3328e4573ca47e4a45b0f4ef3395ce9409aa08b6b3e775a6a"
   end
 
   on_intel do
-    url "https://github.com/VincentBurke/codex-tools/releases/download/v0.1.16/codex-tools-0.1.16-x86_64.tar.gz"
-    sha256 "2d0ee7fedc4535d68137dcf7b3389afe8e2dfa656f3d67aa98352da385e0f09f"
+    url "https://github.com/VincentBurke/codex-tools/releases/download/v0.1.17/codex-tools-0.1.17-x86_64.tar.gz"
+    sha256 "3cc76b6e9484e93c2a732ad4ced27cc8f1006e8ad61dd4acffac62defe0390d0"
   end
 
   def install
